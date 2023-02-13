@@ -19,8 +19,9 @@ def find_mismatch(text):
         if next in ")]}":
             # Process closing bracket, write your code here
             pass
-
-
+print("hello")
+#adjfodnfojsdjof
+#rgtgtthyhyjhhjkn
 def main():
     text = input()
     mismatch = find_mismatch(text)
