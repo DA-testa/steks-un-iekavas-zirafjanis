@@ -14,8 +14,8 @@ def find_mismatch(text):
     for i, next in enumerate(text):
         if next in "([{":
             opening_brackets_stack.append(Bracket(next, i+1))
-            pass
-    if next in ")]}":
+            # pass
+        if next in ")]}":
             if not opening_brackets_stack or not are_matching(opening_brackets_stack[-1].char, next):
                 return i + 1
             opening_brackets_stack.pop()
@@ -27,7 +27,7 @@ def find_mismatch(text):
     return "Success"
 
 def main():
-    lmao = input("xd")
+    lmao = input("xd \n")
     text = input()
     mismatch = find_mismatch(text)
     # if isinstance(mismatch, int):
