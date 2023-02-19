@@ -27,6 +27,7 @@ def find_mismatch(text):
     return "Success"
 
 def main():
+    lmao = input("xd")
     text = input()
     mismatch = find_mismatch(text)
     if isinstance(mismatch, int):
