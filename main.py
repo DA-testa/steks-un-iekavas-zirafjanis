@@ -27,13 +27,13 @@ def find_mismatch(text):
     return "Success"
 
 def main():
-    lmao = input("xd")
+    lmao = input("Input F or I \n")
     text = input()
     mismatch = find_mismatch(text)
-    if isinstance(mismatch, int):
-        print(f"{mismatch}")
-    else:
-        print(mismatch)
+    # if isinstance(mismatch, int):
+    #     print(f"{mismatch}")
+    # else:
+    print(mismatch)
 
 
 if __name__ == "__main__":
